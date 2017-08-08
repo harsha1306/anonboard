@@ -1,20 +1,83 @@
-.header-bar {
-    top:0;
-    background-color: darkcyan;
+.topnav {
+    background-color: #147896;
+    overflow: hidden;
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    border-radius: 0 0 20px 20px;
 }
 
-.nav-bar ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.topnav ul{
+    list-style: none;
+    margin:0;
+    padding:0;
 }
 
-.nav-bar li{
-    background-color: white;
-    float:none;
+.name-icon li{
+    float:left;
 }
 
-.nav-bar a{
+.topnav li{
+    float: right;
+}
+
+.topnav a {
+    float: left;
     display: block;
-    width: 60px;
+    color: #88e4f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.base {
+    background-color: gray;
+    margin:0;
+    padding:0;
+}
+
+.new-thread {
+    width: 50%;
+    background-color: #dddddd;
+    border-radius: 20px;
+    margin-outside: 10px;
+    padding: 20px;
+    margin: auto;
+}
+
+.new-thread-content{
+    width: 70%;
+    border-radius: 20px;
+    position: relative;
+    left: 0;
+    border-style: none;
+    height: 10%;
+}
+
+.new-thread-button{
+    background-color: #4CAF50;
+    width: fit-content;
+    float: right;
+    margin-right: 20px;
+    padding: 5px;
+    top: 80%;
+    bottom: 50%;
+    margin-top: -5px;
+}
+
+.new-thread-button:hover{
+    background-color: #62ff66;
+    cursor: pointer;
 }
