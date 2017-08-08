@@ -1,0 +1,20 @@
+.header-bar {
+    top:0;
+    background-color: darkcyan;
+}
+
+.nav-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar li{
+    background-color: white;
+    float:none;
+}
+
+.nav-bar a{
+    display: block;
+    width: 60px;
+}
